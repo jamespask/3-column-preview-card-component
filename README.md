@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://jamespask.github.io/3-column preview card.com)
+- Live Site URL: (https://jamespask.github.io/3-column-preview-card.com)
 
 ## My process
 
