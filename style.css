@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.title {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.text {
+  font-family: "Lexend Deca", sans-serif;
+  width: 212px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  padding-bottom: 40px;
+  margin-top: 0;
+}
+
+.sedan,
+.suv,
+.luxury {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 48px;
+  width: 307px;
+  height: 500px;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 8px 0px 0px 8px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 8px 8px 0px;
+}
+
+img {
+  width: 64px;
+  height: 40px;
+}
+
+button {
+  width: 146px;
+  height: 48px;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  border-style: none;
+  outline-style: none;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+.sedan > button {
+  color: hsl(31, 77%, 52%);
+}
+
+.sedan > button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: #f2f2f2;
+}
+
+.suv > button {
+  color: hsl(184, 100%, 22%);
+}
+
+.suv > button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: #f2f2f2;
+}
+
+.luxury > button {
+  color: hsl(179, 100%, 13%);
+}
+
+.luxury > button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 100vw;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .sedan,
+  .suv,
+  .luxury {
+    max-width: 327px;
+  }
+
+  .sedan {
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .luxury {
+    border-radius: 0px 0px 8px 8px;
+  }
+}
