@@ -46,4 +46,4 @@ I learned a lot more about flexbox in this project. I encountered issues around 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jamespask)
+- Frontend Mentor - [@jamespask](https://www.frontendmentor.io/profile/jamespask)
