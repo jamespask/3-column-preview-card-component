@@ -28,8 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (https://jamespask.github.io/3-column-preview-card.com)
+- Live Site URL: [https://jamespask.github.io/3-column-preview-card-component/](https://jamespask.github.io/3-column-preview-card-component/)
 
 ## My process
 
@@ -46,4 +45,4 @@ I learned a lot more about flexbox in this project. I encountered issues around 
 
 ## Author
 
-- Frontend Mentor - [@jamespask](https://www.frontendmentor.io/profile/jamespask)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jamespask)
