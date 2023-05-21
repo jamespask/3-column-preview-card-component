@@ -9,6 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background-color: #f2f2f2;
 }
 
 main {
@@ -70,15 +71,15 @@ main {
 }
 
 .aria-invisible {
-    border: 0; 
-    clip: rect(0 0 0 0); 
-    height: 1px;  
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-  }
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
 
 a {
   text-decoration: none;
